@@ -15,9 +15,16 @@
 
 /* Window and Body Styles */
 html {
-   height: 450px;
+   height: 100%;
+   min-height: 100%;
 }
 
+body {
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   position: relative;
+}
 
 
 /* Row Styles */
