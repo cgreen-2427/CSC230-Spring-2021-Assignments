@@ -25,7 +25,7 @@ body {
    min-width: 640px;
    float: center;
 }
-ul, nav, li, a {
+header, ul, nav, li, a {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
