@@ -23,9 +23,13 @@ body {
    width: 95%;
    max-width: 960px;
    min-width: 640px;
-   position: relative;
+   float: center;
 }
-
+ul, nav, li, a {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
 
 /* Row Styles */
 
