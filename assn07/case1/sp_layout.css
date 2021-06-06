@@ -23,7 +23,7 @@ body {
    width: 95%;
    max-width: 960px;
    min-width: 640px;
-   float: center;
+ vertical-align: middle;
 }
 header, ul, nav, li, a {
    -webkit-box-sizing: border-box;
@@ -32,7 +32,11 @@ header, ul, nav, li, a {
 }
 
 /* Row Styles */
-
+div.row::after {
+   clear: both;
+   content: "";
+   display: table;
+}
 
 
 
