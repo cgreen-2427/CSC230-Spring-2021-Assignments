@@ -32,10 +32,14 @@ body > header nav.tabs {
 
 }
 
+body > header nav.tabs li {
+   transform: perspective(50px) rotateX(20deg)
+}
 
-
+body > header nav.tabs li a:active, body > header nav.tabs li a:hover {
+   background-color: rgb(231, 231, 231);
+}
 /* Left Section Styles */
-
 
 
 
