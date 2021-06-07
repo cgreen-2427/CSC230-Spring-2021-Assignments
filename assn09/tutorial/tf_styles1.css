@@ -176,6 +176,15 @@ Tablet Styles: 481px and greater
 =================================*/
 @media only screen and (min-width:481px) {
 
+   ul.mainmenu > li {
+   float: left;
+   width: 20%;
+}
+
+ul.submenu {
+   width: 200%;
+}
+
 }
 
 /*================================ 
