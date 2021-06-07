@@ -64,4 +64,13 @@ section#center article {
 
 /* Blockquote Styles */
 
+blockquote {
+   background-image: url(sf_speech.png);
+   background-repeat: no-repeat;
+   -webkit-filter: drop-shadow(color rgb(51, 51, 51)5px, 5px, 10px);
+   filter: drop-shadow(color rgb(51, 51, 51)5px, 5px, 10px);
+}
 
+cite image{
+   border-radius: 50%;
+}
